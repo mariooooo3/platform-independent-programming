@@ -1,29 +1,14 @@
-### IntelliJ IDEA ###
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Build folders
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+build/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# System files
+*.class
+*.log
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
+# Exclude anything else not in src
+!.gitignore
