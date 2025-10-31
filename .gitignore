@@ -1,11 +1,10 @@
-# Ignore everything
-*
+# IntelliJ
+*.iml
+.idea/
 
-# But not these files...
-!.gitignore
-!src/
-!src/**
+# Build / output
+out/
 
-# (Optional, just in case)
-# Keep Java source files only
-!src/**/*.java
+# Sistem / OS
+.DS_Store
+Thumbs.db
