@@ -14,7 +14,7 @@ public class MainGrupa {
         grupa.print();
 
         grupa.add(new Student("Chris", 3), 2);
-        grupa.add(new Student("Gabi", 2),4);
+        grupa.add(new Student("Gabi", 2), 4);
         grupa.add(new Student("Denis", 3), 3);
         grupa.print();
     }

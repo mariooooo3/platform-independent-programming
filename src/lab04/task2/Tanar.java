@@ -1,20 +1,20 @@
 package lab04.task2;
 
 public class Tanar {
-	Tanar() {
-		System.out.println("Constructor Tanar");
-	}
+    Tanar() {
+        System.out.println("Constructor Tanar");
+    }
 
-	public void metoda1() {
-		System.out.println("Met1 Tanar");
-	}
+    public void metoda1() {
+        System.out.println("Met1 Tanar");
+    }
 
-	public void metoda2() {
-		System.out.println("Met2 Tanar");
-	}
+    public void metoda2() {
+        System.out.println("Met2 Tanar");
+    }
 
-	public void metoda3() {
-		System.out.println("Met3 Tanar");
-		metoda1();
-	}
+    public void metoda3() {
+        System.out.println("Met3 Tanar");
+        metoda1();
+    }
 }
