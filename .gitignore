@@ -1,10 +1,5 @@
-# IntelliJ
-*.iml
-.idea/
+# Ignore everything
+/*
 
-# Build / output
-out/
-
-# Sistem / OS
-.DS_Store
-Thumbs.db
+# Except the src folder
+!/src
