@@ -1,14 +1,11 @@
-# IntelliJ IDEA
-.idea/
-*.iml
+# Ignore everything
+*
 
-# Build folders
-out/
-build/
-
-# System files
-*.class
-*.log
-
-# Exclude anything else not in src
+# But not these files...
 !.gitignore
+!src/
+!src/**
+
+# (Optional, just in case)
+# Keep Java source files only
+!src/**/*.java
