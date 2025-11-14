@@ -1,9 +1,9 @@
 package lab06.Task3;
 
-public class E3 extends Exception{
+public class E3 extends Exception {
     private static final long serialVersionUID = 0L;
-    public E3(String message)
-    {
+
+    public E3(String message) {
         super(message);
     }
 }
