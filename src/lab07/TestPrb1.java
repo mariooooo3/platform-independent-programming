@@ -28,7 +28,7 @@ public class TestPrb1 extends JFrame {
         //task 2
 
         Container panou = gui.getContentPane();
-        panou.setBackground(new Color(90, 0, 100));
+        panou.setBackground(new Color(100, 0, 0));
 
         gui.setVisible(true);
 
